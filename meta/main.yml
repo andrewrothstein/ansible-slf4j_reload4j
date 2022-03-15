@@ -30,6 +30,6 @@ galaxy_info:
         - focal
   galaxy_tags:
     - development
-  role_name: reload4j
+  role_name: slf4j_reload4j
 
 dependencies: []
