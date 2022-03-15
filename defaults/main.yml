@@ -1,0 +1,15 @@
+---
+# defaults file for slf4j_reload4j
+slf4j_reload4j_mirror: https://repo1.maven.org/maven2/org/slf4j/slf4j-reload4j
+slf4j_reload4j_ver: 1.7.36
+
+## fully qualified path to dropped jar
+## slf4j_reload4j_install_jar: /usr/local/lib/slf4j-api-1.7.30
+
+slf4j_reload4j_checksums:
+  # https://repo1.maven.org/maven2/org/slf4j/slf4j-reload4j/1.7.34/slf4j-reload4j-1.7.34.jar
+  '1.7.34': sha256:18c1c7336aa208e5105da668024a92fb5f2a28de958464ac6a2f711498209118
+  # https://repo1.maven.org/maven2/org/slf4j/slf4j-reload4j/1.7.35/slf4j-reload4j-1.7.35.jar
+  '1.7.35': sha256:4ff395cda0d4299e4186cf2618e16beef070a3d242598ef1d0348d19d776b1a3
+  # https://repo1.maven.org/maven2/org/slf4j/slf4j-reload4j/1.7.36/slf4j-reload4j-1.7.36.jar
+  '1.7.36': sha256:ae6fdd5c9547896114d5ec7fa7503733b7d2890573d3886fb548b3119c4d3f67

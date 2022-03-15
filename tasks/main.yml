@@ -1,0 +1,11 @@
+---
+- when: slf4j_reload4j_install_jar is defined
+  block:
+    - name: downloading {{ slf4j_reload4j_url }} to {{ slf4j_reload4j_install_jar }}
+      become: true
+      become_user: root
+      get_url:
+        url: '{{ slf4j_reload4j_url }}'
+        dest: '{{ slf4j_reload4j_install_jar }}'
+        checksum: '{{ slf4j_reload4j_checksum }}'
+        mode: 0644

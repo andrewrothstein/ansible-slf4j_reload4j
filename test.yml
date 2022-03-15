@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - include_role:
+        name: '{{ playbook_dir }}'
+      vars:
+        slf4j_reload4j_install_jar: /tmp/slf4j-api-1.7.30.jar

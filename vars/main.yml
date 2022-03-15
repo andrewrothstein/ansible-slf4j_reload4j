@@ -1,0 +1,5 @@
+---
+# vars file for slf4j_reload4j
+slf4j_reload4j_jar: slf4j-reload4j-{{ slf4j_reload4j_ver }}.jar
+slf4j_reload4j_url: '{{ slf4j_reload4j_mirror }}/{{ slf4j_reload4j_ver }}/{{ slf4j_reload4j_jar }}'
+slf4j_reload4j_checksum: '{{ slf4j_reload4j_checksums[slf4j_reload4j_ver] }}'
